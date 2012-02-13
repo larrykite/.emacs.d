@@ -1,0 +1,16 @@
+* Setting Up Emacs as a python environment
+** Downloaded and installed:
+*** Rope (0.9.3)
+*** Ropemacs
+*** Ropemode (0.1-rc2)
+*** Pymacs
+*** Python-mode
+** Configuration
+*** DONE Python-mode
+    (add-to-list 'load-path "./python-mode/") 
+    (setq py-install-directory "./python-mode")
+    (require 'python-mode)
+
+*** Pymacs
+
+*** And some more
